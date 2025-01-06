@@ -15,14 +15,10 @@ async function main() {
   console.log("New user created!");
   const users = await db.select().from(usersTable);
   console.log("Getting all users from the database: ", users);
-  /*
-    const users: {
-      id: number;
-      name: string;
-      age: number;
-      email: string;
-    }[]
-    */
+
+  const usersNames = await db.select({ customFieldName: usersTable.name }).from(usersTable);
+  console.log("Getting all users from the database: ", usersNames);
+
   await db
     .update(usersTable)
     .set({
