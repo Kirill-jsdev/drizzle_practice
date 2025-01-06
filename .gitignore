@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+pip-wheel-metadata/
+*.pyo
+*.pyd
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Java build directory
+/target/
+
+# .env file (often used for environment variables)
+#.env
+
+# IDE and Editor configurations (e.g., VSCode, JetBrains)
+.vscode/
+.idea/
+.sublime-workspace
+.sublime-project
+
+# Log files
+*.log
+
+# Test and coverage reports
+coverage/
+*.lcov
+
+# Build output directories
+dist/
+build/
+out/
