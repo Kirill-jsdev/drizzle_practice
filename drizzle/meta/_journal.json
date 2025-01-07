@@ -8,6 +8,20 @@
       "when": 1736194092248,
       "tag": "0000_fixed_cardiac",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1736288497634,
+      "tag": "0001_abandoned_tarantula",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1736288952242,
+      "tag": "0002_redundant_marten_broadcloak",
+      "breakpoints": true
     }
   ]
 }
