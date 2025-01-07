@@ -3,7 +3,7 @@ import { drizzle } from "drizzle-orm/libsql";
 import { usersTable } from "./db/schema";
 import { eq } from "drizzle-orm";
 
-const db = drizzle(process.env.DB_FILE_NAME!);
+export const db = drizzle(process.env.DB_FILE_NAME!);
 
 async function main() {
   const user: typeof usersTable.$inferInsert = {
@@ -29,4 +29,4 @@ async function main() {
   await db.delete(usersTable).where(eq(usersTable.email, user.email));
   console.log("User deleted!");
 }
-main();
+// main();
